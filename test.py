@@ -50,12 +50,13 @@ def rps ():
     else:
         print("AI has won")
 
-rps()
+
 
 #Rematch
-rematch = input("Would you like to play again ? \n")
-if rematch == "Yes":
-    rps()
-elif rematch == "No":
-    quit()
+While True:
+    rematch = input("Would you like to play again ? \n")
+    if rematch == "Yes":
+        rps()
+    elif rematch == "No":
+        quit()
 
