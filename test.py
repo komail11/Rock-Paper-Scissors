@@ -28,7 +28,6 @@ def rps ():
                 count_w += 1
 
         if user == "Paper":
-            
             if ai == user:
                 pass
             elif ai == "Rock":
